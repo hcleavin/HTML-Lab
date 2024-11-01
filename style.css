@@ -1,0 +1,59 @@
+body {
+    background: #6aa0e3 url("https://upload.wikimedia.org/wikipedia/en/5/5c/Mario_by_Shigehisa_Nakaue.png") repeat top left;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: "Tiny5", sans-serif;
+    }
+
+
+div { 
+    background-color: #6096fe;
+    border: solid 10px rgb(214,73,73);
+}
+
+
+.heading { 
+    background: url("https://i.ytimg.com/vi/5hFdt39Brus/maxresdefault.jpg") repeat bottom left;
+    background-size: 350px;
+    border: solid 10px rgb(214, 73, 73);
+    padding: 50px;
+    text-align: center;
+    font-size: 70px;
+}
+
+
+.greeting {
+    background-color: #6096fe;
+    padding: 5px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+
+.popup {
+    background: url("https://insight.randomhouse.com/fullpage.do?pContentType=JPG&pName=fullpage&pISBN=9780593809433&pPageID=2") rgb(230, 51, 51);
+    padding: 250px;
+    display: none;
+    position: fixed;
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+.header { 
+    padding: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.body {
+    padding: 30px;
+    line-height: 40px;
+    color: rgb(15, 15, 60);
+    font-size: 25px;
+}

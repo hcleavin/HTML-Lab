@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    x`
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+    </style>
+
+    <head>
+        <title>Mario Madness</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+    <h1 class="heading">Mario!</h1>
+
+    <div>
+
+        <p class="greeting">
+
+            <script>
+
+            document.write((new Date().getHours() < 12) ? "Good morning! Let's learn about Mario! Mario is a plumber turned koopa fighter. He works to keep the Mushroom Kingdom safe! Here are some facts about Mario!" : "Good afternoon! Let's learn about Mario! Mario is a plumber turned koopa fighter. He works to keep the Mushroom Kingdom safe! Here are some facts about Mario!")
+
+            </script>
+
+        </p>
+        
+    <p class="greeting">
+
+        <button id="myButton">What time is it?</button>
+
+        <div id="popup" class="popup">
+
+        <button onclick="closePopup()">Close</button>
+
+        </div>
+
+        <script>
+
+            const button = document.getElementById("myButton");
+
+            const popup = document.getElementById("popup");
+
+            button.addEventListener("click", () => {
+                popup.style.display = "block";
+            });
+
+            function closePopup() {
+                popup.style.display = "none";
+            }
+
+        </script>
+
+    </div>
+
+<p></p>
+
+    <div>   
+        <p class="header">Education</p>
+
+        <p class= "body">
+            Mario went to trade school to study plumbing. He was top of his class! 
+        </p>
+
+        <p class="header">Interests</p>
+
+        <p class= "body">
+            Mario likes to explore different areas. Finding secrets makes him happy!
+        </p>
+
+        <p class="header">Family</p>
+
+        <p class="body">
+            Mario has a younger brother, Luigi. They are close, but Mario tends to outshine Luigi.
+        </p>
+
+        <p class="header">Achievements</p>
+
+        <ul class="body">
+            <li>Defeated Bowser (more than once!)</li>
+            <li>Has been resurrected (extra lives come in handy)</li>
+            <li>Has been to space</li>
+            <li>A princess is in love with him</li>
+        </ul>
+    
+        <p class="header">Favorite Food</p>
+
+        <p class="body">
+            Spaghetti and meatballs. He's a true Italian!
+        </p>
+
+    </div>
+
+    </body>
+
+</html>
